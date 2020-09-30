@@ -32,8 +32,8 @@ h1 {
   color: rgba(0, 0, 0, 1);
 }
 
-h2{
-  font-family: RobotoMediu, rial sans-serif;
+h2 {
+  font-family: RobotoMedium, rial sans-serif;
   font-size: 45px;
   line-height: 45px;
   color: rgba(0, 0, 0, 1);
@@ -41,7 +41,25 @@ h2{
 
 h3 {
   font-family: RobotoBold, Arial sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 1);
+}
+
+h4 {
+  font-family: RobotoBold, Arial, sans-serif;
   font-size: 24px;
   line-height: 30px;
-  color: rgba(0, 0, 0, 1);
+}
+
+h5 {
+  font-family: RobotoBold, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+h6{
+  font-family: RobotoBold, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
 }
