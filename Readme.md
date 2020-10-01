@@ -15,6 +15,7 @@
 
 ### Дополнительные
 6. [#37 Оживить интерактивные элементы в личном проекте](https://up.htmlacademy.ru/htmlcss/17/tasks/37)
+
 7. [#38 Прогрессивное улучшение и базовая оптимизация личного проекта (по желанию)](https://up.htmlacademy.ru/htmlcss/17/tasks/38)
 
 ### [Критерии](https://up.htmlacademy.ru/htmlcss/17/criteries)
