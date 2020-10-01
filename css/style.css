@@ -26,14 +26,14 @@ body {
 }
 
 h1 {
-  font-family: RobotoMedium, Arial sans-serif;
+  font-family: RobotoMedium, Arial, sans-serif;
   font-size: 55px;
   line-height: 55px;
   color: rgba(0, 0, 0, 1);
 }
 
 h2 {
-  font-family: RobotoMedium, rial sans-serif;
+  font-family: RobotoMedium, Arial, sans-serif;
   font-size: 45px;
   line-height: 45px;
   color: rgba(0, 0, 0, 1);
