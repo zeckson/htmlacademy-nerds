@@ -13,13 +13,13 @@
 
 5. [#35 Завершаем вёрстку личного проекта](https://up.htmlacademy.ru/htmlcss/17/tasks/35)
 
-###Дополнительные
+### Дополнительные
 6. [#37 Оживить интерактивные элементы в личном проекте](https://up.htmlacademy.ru/htmlcss/17/tasks/37)
 7. [#38 Прогрессивное улучшение и базовая оптимизация личного проекта (по желанию)](https://up.htmlacademy.ru/htmlcss/17/tasks/38)
 
-###[Критерии](https://up.htmlacademy.ru/htmlcss/17/criteries)
+### [Критерии](https://up.htmlacademy.ru/htmlcss/17/criteries)
 
-###Макеты
+### Макеты
 ![Главная](https://up.htmlacademy.ru/static/img/intensive/htmlcss/task-preview/nerds-index-1000.jpg)
 
 
