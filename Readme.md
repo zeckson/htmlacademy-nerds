@@ -20,6 +20,11 @@
 
 ### [Критерии](https://up.htmlacademy.ru/htmlcss/17/criteries)
 
+### Текущий результат
+
+- [Черновик](https://webdotg.github.io/htmlacademy-nerds/)
+- [Чистовик](https://zeckson.github.io/htmlacademy-nerds/)
+
 ### Макеты
 ![Главная](https://up.htmlacademy.ru/static/img/intensive/htmlcss/task-preview/nerds-index-1000.jpg)
 
