@@ -181,6 +181,7 @@ h6 {
 
 .information {
   width: 1440px;
+  margin: 0 auto;
   padding-top: 80px;
   position: relative;
   background-color: gold;
