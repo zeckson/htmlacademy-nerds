@@ -1,4 +1,5 @@
 ul {
+  margin: 0;
   padding-left: 0;
   list-style: none;
 }
@@ -112,3 +113,28 @@ body {
   top: 50px;
   margin-right: 0;
 }
+.main{
+  width: 100%;
+  background-color: red;
+}
+
+.main-gallery{
+  width: 100%;
+  background-color: green;
+}
+
+.slide-first{
+  width: 1157px;
+  min-height: 437px;
+  margin: 0 auto;
+  background-color: blue;
+}
+.slide-first h1{
+  margin: 0;
+}
+.slide-second,
+.slide-third{
+  display: none;
+}
+
+
