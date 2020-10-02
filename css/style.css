@@ -82,6 +82,7 @@ h6 {
   margin: auto;
   padding-top: 75px;
   position: relative;
+  display: flex;
 }
 
 .header-logo {
@@ -93,7 +94,7 @@ h6 {
 .nav-list {
   width: 437px;
   height: 30px;
-  margin: 0 auto;
+  margin-left: 350px;
   display: flex;
   justify-content: center;
 }
@@ -107,11 +108,8 @@ h6 {
   margin-right: 0;
 }
 
-.nav-list__item:nth-child(5) {
-  position: absolute;
-  right: 50px;
-  top: 50px;
-  margin-right: 0;
+.header-cart{
+  margin-left: auto;
 }
 
 .main {
@@ -192,10 +190,14 @@ h6 {
   height: 308px;
   left: 75px;
   top: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: white;
 }
 
 .popup-form {
+  display: none;
   width: 960px;
   height: 590px;
   position: absolute;
