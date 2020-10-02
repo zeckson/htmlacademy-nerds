@@ -26,8 +26,7 @@ ul {
 }
 
 body {
-  width: 1440px;
-  margin: 0 auto;
+  margin: 0;
   font-family: Roboto, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -73,13 +72,14 @@ h6 {
 }
 
 .header {
-  width: 100%;
+  width: 1440px;
+  margin: 0 auto;
   background-color: #eeeeee;
 }
 
 .header-nav {
   width: 1160px;
-  margin: auto;
+  margin: 0 auto;
   padding-top: 75px;
   position: relative;
   display: flex;
@@ -88,7 +88,6 @@ h6 {
 .header-logo {
   position: absolute;
   top: 20px;
-  left: 50px;
 }
 
 .nav-list {
@@ -113,17 +112,19 @@ h6 {
 }
 
 .main {
-  width: 100%;
+  width: 1440px;
+  margin: 0 auto;
   background-color: red;
 }
 
 .main-gallery {
   width: 100%;
+  margin: 0 auto;
   background-color: green;
 }
 
 .slide-first {
-  width: 1157px;
+  width: 1160px;
   min-height: 437px;
   margin: 0 auto;
   background-color: blue;
@@ -138,9 +139,12 @@ h6 {
   display: none;
 }
 
-.products {
-  width: 1158px;
+.center-block{
+  width: 1160px;
   margin: 0 auto;
+}
+
+.products {
   display: flex;
   justify-content: space-around;
   background-color: white;
@@ -152,8 +156,6 @@ h6 {
 }
 
 .about {
-  width: 1158px;
-  margin: 0 auto;
   padding-top: 66px;
   padding-bottom: 73px;
   display: flex;
@@ -172,16 +174,16 @@ h6 {
 .portfolio {
   padding-top: 66px;
   padding-bottom: 66px;
-  width: 1158px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-around;
   background-color: coral;
 }
 
 .information {
+  width: 1440px;
   padding-top: 80px;
   position: relative;
+  background-color: gold;
 }
 
 .information__text {
@@ -207,7 +209,8 @@ h6 {
 }
 
 .footer {
-  width: 100%;
+  width: 1440px;
+  margin: 0 auto;
   background-color: deeppink;
   display: flex;
 }
