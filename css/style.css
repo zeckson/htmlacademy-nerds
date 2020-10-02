@@ -171,7 +171,7 @@ body {
   min-width: 330px;
 }
 
-.portfolio{
+.portfolio {
   padding-top: 66px;
   padding-bottom: 66px;
   width: 1158px;
@@ -181,15 +181,43 @@ body {
   background-color: coral;
 }
 
-.information{
+.information {
   padding-top: 80px;
   position: relative;
 }
-.information__text{
+
+.information__text {
   position: absolute;
   width: 319px;
   height: 308px;
   left: 75px;
   top: 125px;
   background-color: white;
+}
+
+.popup-form {
+  width: 960px;
+  height: 590px;
+  position: absolute;
+  top: -150px;
+  left: 200px;
+  background-color: cyan;
+}
+
+.footer{
+  width: 100%;
+  background-color: deeppink;
+  display: flex;
+}
+
+.social-list{
+  display: flex;
+  padding-right: 100px;
+  background-color: blue;
+}
+
+.social-list__item{
+  width: 81px;
+  height: 81px;
+  margin-right: 10px;11
 }
