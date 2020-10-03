@@ -72,7 +72,7 @@ h6 {
 }
 
 .header {
-  background-color: #eeeeee;
+  background: #EEEEEE;
 }
 
 .header-nav {
@@ -112,7 +112,6 @@ h6 {
 .header-gallery {
   width: 1160px;
   margin: 0 auto;
-  background-color: green;
 }
 
 .main {
@@ -124,7 +123,6 @@ h6 {
   width: 1160px;
   min-height: 437px;
   margin: 0 auto;
-  background-color: blue;
 }
 
 .slide-first h1 {
@@ -144,7 +142,6 @@ h6 {
 .products {
   display: flex;
   justify-content: space-around;
-  background-color: white;
 }
 
 .products__item {
@@ -156,7 +153,6 @@ h6 {
   padding-top: 66px;
   padding-bottom: 73px;
   display: flex;
-  background-color: blueviolet;
 }
 
 .about__left-column {
@@ -173,7 +169,6 @@ h6 {
   padding-bottom: 66px;
   display: flex;
   justify-content: space-around;
-  background-color: coral;
 }
 
 .information {
@@ -192,7 +187,7 @@ h6 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
+  background: #FFFFFF;
 }
 
 .popup-form {
@@ -202,11 +197,10 @@ h6 {
   position: absolute;
   top: -150px;
   left: 200px;
-  background-color: cyan;
 }
 
 .footer {
-  background: #888888;;
+  background: white;
 }
 
 .footer-content {
@@ -216,7 +210,6 @@ h6 {
 .social-list {
   display: flex;
   padding-right: 100px;
-  background-color: blue;
 }
 
 .social-list__item {
