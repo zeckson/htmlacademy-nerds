@@ -71,8 +71,8 @@ h6 {
   line-height: 24px;
 }
 
-.header {
-  background: #EEEEEE;
+header {
+background: #888888;
 }
 
 .header-nav {
@@ -114,15 +114,9 @@ h6 {
   margin: 0 auto;
 }
 
-.main {
-  background-color: white;
-}
-
 
 .slide-first {
-  width: 1160px;
   min-height: 437px;
-  margin: 0 auto;
 }
 
 .slide-first h1 {
@@ -174,10 +168,14 @@ h6 {
 .information {
   min-height: 416px;
   margin-top: 80px;
-  position: relative;
   background-image: url("../img/map.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+.address-block{
+  position: relative;
+}
 .information__text {
   position: absolute;
   width: 319px;
@@ -187,7 +185,7 @@ h6 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #FFFFFF;
+  background: white;
 }
 
 .popup-form {
@@ -199,9 +197,6 @@ h6 {
   left: 200px;
 }
 
-.footer {
-  background: white;
-}
 
 .footer-content {
   display: flex;
