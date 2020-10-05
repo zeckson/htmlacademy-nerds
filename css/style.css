@@ -19,7 +19,14 @@
   src: url("../fonts/robotobold.woff2") format("woff2"), url("../fonts/robotobold.woff") format("woff");
 }
 
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
 body {
+  margin: 0;
   font-family: Roboto, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -58,8 +65,150 @@ h5 {
   line-height: 30px;
 }
 
-h6{
+h6 {
   font-family: RobotoBold, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
+}
+
+header {
+  background: #EEEEEE;
+}
+
+.header-nav {
+  width: 1160px;
+  margin: 0 auto;
+  padding-top: 75px;
+  position: relative;
+  display: flex;
+}
+
+.header-logo {
+  position: absolute;
+  top: 20px;
+}
+
+.nav-list {
+  width: 437px;
+  height: 30px;
+  margin-left: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list__item {
+  display: block;
+  margin-right: 45px;
+}
+
+.nav-list__item:nth-child(4) {
+  margin-right: 0;
+}
+
+.header-cart {
+  margin-left: auto;
+}
+
+.header-gallery {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+
+.slide-first {
+  min-height: 437px;
+}
+
+.slide-first h1 {
+  margin: 0;
+}
+
+.slide-second,
+.slide-third {
+  display: none;
+}
+
+.center-block {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+}
+
+.products__item {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.about {
+  padding-top: 66px;
+  padding-bottom: 73px;
+  display: flex;
+}
+
+.about__left-column {
+  min-width: 666px;
+  margin-right: 145px;
+}
+
+.about__right-column {
+  min-width: 330px;
+}
+
+.portfolio {
+  padding-top: 66px;
+  padding-bottom: 66px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.information {
+  min-height: 416px;
+  margin-top: 80px;
+  background-image: url("../img/map.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.address-block{
+  position: relative;
+}
+.information__text {
+  position: absolute;
+  width: 319px;
+  height: 308px;
+  left: 75px;
+  top: 66px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+}
+
+.popup-form {
+  display: none;
+  width: 960px;
+  height: 590px;
+  position: absolute;
+  top: -150px;
+  left: 200px;
+}
+
+
+.footer-content {
+  display: flex;
+}
+
+.social-list {
+  display: flex;
+  padding-right: 100px;
+}
+
+.social-list__item {
+  width: 81px;
+  height: 81px;
+  margin-right: 10px;
 }
