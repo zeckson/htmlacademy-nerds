@@ -107,7 +107,6 @@ header {
   justify-content: space-between;
 }
 
-
 .header-cart {
   margin-left: auto;
   color: black;
@@ -125,10 +124,34 @@ header {
 
 .slide-first {
   min-height: 437px;
+  background-image: url("../img/nerds-index-slide1.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .slide-first h1 {
-  margin: 0;
+  margin-top: 78px;
+  margin-bottom: 25px;
+  padding-left: 17px;
+}
+
+.slide-first p{
+  margin-bottom: 38px;
+  padding-left: 17px;
+}
+
+.header-gallery__button--red{
+  margin-left: 14px;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  padding-left: 54px;
+  padding-right: 54px;
+  color: white;
+  background: #FB565A;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
 }
 
 .slide-second,
