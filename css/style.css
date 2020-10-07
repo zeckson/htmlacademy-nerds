@@ -119,28 +119,33 @@ header {
 .header-gallery {
   width: 1160px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 
 .slide-first {
-  min-height: 437px;
-  background-image: url("../img/nerds-index-slide1.jpg");
+  min-height: 431px;
+  background-image: url("../img/nerds-index-slide1.png");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position-x: 426px;
+  background-position-y: -13px;
 }
 
 .slide-first h1 {
-  margin-top: 78px;
-  margin-bottom: 25px;
+  margin: 0;
+  padding-top: 78px;
+  padding-bottom: 25px;
   padding-left: 17px;
 }
 
 .slide-first p{
-  margin-bottom: 38px;
+  margin: 0;
+  padding-bottom: 38px;
   padding-left: 17px;
 }
 
 .header-gallery__button--red{
+  display: inline-block;
   margin-left: 14px;
   padding-top: 17px;
   padding-bottom: 15px;
@@ -158,6 +163,19 @@ header {
 .slide-third {
   display: none;
 }
+
+.slide-second h1{
+  margin-top: 87px;
+  margin-bottom: 37px;
+  padding-left: 14px;
+}
+
+.slide-second p{
+  margin-bottom: 27px;
+  padding-left: 14px;
+}
+
+
 
 .center-block {
   width: 1160px;
