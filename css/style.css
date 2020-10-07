@@ -165,6 +165,25 @@ header {
   padding-left: 14px;
 }
 
+.slide-third{
+  background-image: url("../img/nerds-index-slide3.png");
+  background-repeat: no-repeat;
+  background-position-x: 395px;
+}
+
+.slide-third h1{
+  margin: 0;
+  padding-top: 87px;
+  padding-left: 14px;
+  padding-bottom: 37px;
+}
+
+.slide-third p{
+  margin: 0;
+  padding-left: 14px;
+  padding-bottom: 26px;
+}
+
 .header-gallery__button--red {
   display: inline-block;
   margin-left: 14px;
@@ -181,7 +200,7 @@ header {
 }
 
 .slide-first,
-.slide-third {
+.slide-second {
   display: none;
 }
 
