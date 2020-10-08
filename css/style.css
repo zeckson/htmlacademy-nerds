@@ -205,6 +205,7 @@ header {
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
+  margin-bottom: 80px;
 }
 
 .slide-first,
@@ -222,6 +223,7 @@ header {
   display: flex;
   justify-content: space-around;
   position: relative;
+  box-sizing: border-box;
 }
 
 .products__item {
@@ -282,11 +284,20 @@ header {
   border-radius: 3px;
 }
 
-
 .about {
-  padding-top: 66px;
   padding-bottom: 73px;
   display: flex;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.about::before{
+  content: " ";
+  width: 1160px;
+  height: 2px;
+  display: inline-block;
+  background: #EEEEEE;
+  position: absolute;
 }
 
 .about__left-column {
