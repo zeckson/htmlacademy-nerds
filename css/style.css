@@ -292,7 +292,7 @@ header {
   box-sizing: border-box;
 }
 
-.about::before{
+.about::before {
   content: " ";
   width: 1160px;
   height: 2px;
@@ -301,7 +301,7 @@ header {
   position: absolute;
 }
 
-.about::after{
+.about::after {
   content: " ";
   width: 1160px;
   height: 2px;
@@ -311,29 +311,32 @@ header {
   top: 570px;
 }
 
-.about__left-column h2{
+.about__left-column h2 {
   padding-top: 66px;
   padding-bottom: 39px;
 }
-.about__left-column p{
+
+.about__left-column p {
   padding-bottom: 41px;
 }
 
-.about h5{
+.about h5 {
   padding-bottom: 22px;
 }
 
-.service-list{
+.service-list {
   min-height: 120px;
   padding-left: 32px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.service-list__item{
+
+.service-list__item {
   position: relative;
 }
-.service-list__item::before{
+
+.service-list__item::before {
   content: " ";
   position: absolute;
   width: 25px;
@@ -342,14 +345,16 @@ header {
   left: -35px;
   top: 10px;
 }
-.about__right-column{
+
+.about__right-column {
   margin-right: auto;
-  background-image:url("../img/nerds-illustration.png");
+  background-image: url("../img/nerds-illustration.png");
   background-repeat: no-repeat;
   background-position-x: 130px;
   background-position-y: 30px;
 }
-.about__right-column h5{
+
+.about__right-column h5 {
   padding-top: 266px;
   padding-left: 143px;
   padding-bottom: 49px;
@@ -358,33 +363,45 @@ header {
   text-transform: uppercase;
 }
 
-.about__right-column table{
+.about__right-column table {
   padding-left: 145px;
 }
 
-.table__accent{
+.table__accent {
   padding-bottom: 11px;
   font-weight: bold;
   font-size: 45px;
   line-height: 64px;
   color: #000000;
 }
-.table__secondary{
+
+.table__secondary {
   font-size: 16px;
   line-height: 18px;
 }
+
 .portfolio-list {
   padding-top: 66px;
-  padding-bottom: 66px;
+  padding-bottom: 44px;
   display: flex;
   justify-content: space-around;
-}
-
-.portfolio-list__item{
   position: relative;
 }
 
-.portfolio-list__item::before{
+.portfolio-list::after {
+  content: "";
+  width: 1160px;
+  height: 2px;
+  background: #EEEEEE;
+  position: absolute;
+  top: 200px;
+}
+
+.portfolio-list__item {
+  position: relative;
+}
+
+.portfolio-list__item::before {
   position: absolute;
   content: "";
   display: inline-block;
@@ -397,7 +414,7 @@ header {
 
 .information {
   min-height: 416px;
-  margin-top: 80px;
+  padding-top: 80px;
   background-image: url("../img/map.jpg");
   background-repeat: no-repeat;
   background-position: center;
