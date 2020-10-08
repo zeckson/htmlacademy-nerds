@@ -308,7 +308,7 @@ header {
   display: inline-block;
   background: #EEEEEE;
   position: absolute;
-  top: 450px;
+  top: 570px;
 }
 
 .about__left-column h2{
@@ -342,10 +342,37 @@ header {
   left: -35px;
   top: 10px;
 }
-.about__right-column {
-  min-width: 330px;
+.about__right-column{
+  margin-right: auto;
+  background-image:url("../img/nerds-illustration.png");
+  background-repeat: no-repeat;
+  background-position-x: 130px;
+  background-position-y: 30px;
+}
+.about__right-column h5{
+  padding-top: 266px;
+  padding-left: 143px;
+  padding-bottom: 49px;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
 }
 
+.about__right-column table{
+  padding-left: 145px;
+}
+
+.table__accent{
+  padding-bottom: 11px;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 64px;
+  color: #000000;
+}
+.table__secondary{
+  font-size: 16px;
+  line-height: 18px;
+}
 .portfolio {
   padding-top: 66px;
   padding-bottom: 66px;
