@@ -282,14 +282,6 @@ header {
   border-radius: 3px;
 }
 
-.products::after {
-  content: "";
-  position: absolute;
-  height: 2px;
-  width: 1160px;
-  background: rgba(238, 238, 238, 1);
-  top: 500px;
-}
 
 .about {
   padding-top: 66px;
