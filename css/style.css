@@ -373,11 +373,26 @@ header {
   font-size: 16px;
   line-height: 18px;
 }
-.portfolio {
+.portfolio-list {
   padding-top: 66px;
   padding-bottom: 66px;
   display: flex;
   justify-content: space-around;
+}
+
+.portfolio-list__item{
+  position: relative;
+}
+
+.portfolio-list__item::before{
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 52px;
+  background: #EEEEEE;
+  top: 5px;
+  left: -45px;
 }
 
 .information {
