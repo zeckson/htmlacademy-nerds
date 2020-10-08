@@ -285,6 +285,7 @@ header {
 }
 
 .about {
+  min-height: 525px;
   padding-bottom: 73px;
   display: flex;
   position: relative;
@@ -298,6 +299,16 @@ header {
   display: inline-block;
   background: #EEEEEE;
   position: absolute;
+}
+
+.about::after{
+  content: " ";
+  width: 1160px;
+  height: 2px;
+  display: inline-block;
+  background: #EEEEEE;
+  position: absolute;
+  top: 450px;
 }
 
 .about__left-column {
