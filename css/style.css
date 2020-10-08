@@ -221,6 +221,7 @@ header {
   padding-top: 80px;
   display: flex;
   justify-content: space-around;
+  position: relative;
 }
 
 .products__item {
@@ -279,6 +280,15 @@ header {
   line-height: 18px;
   text-transform: uppercase;
   border-radius: 3px;
+}
+
+.products::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 1160px;
+  background: rgba(238, 238, 238, 1);
+  top: 500px;
 }
 
 .about {
