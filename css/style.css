@@ -473,36 +473,34 @@ header {
 .vk-link{
   position: absolute;
   content: "";
-  width: 26px;
-  height: 15px;
+  width: 81px;
+  height: 81px;
   display: inline-block;
+  border-radius: 50%;
   background-image: url("../img/vk-icon.png");
   background-repeat: no-repeat;
-  top: 32px;
-  left: 27px;
+  background-position: center;
 }
 .fb-link{
   position: absolute;
   content: "";
-  width: 12px;
-  height: 22px;
+  width: 81px;
+  height: 81px;
   display: inline-block;
   background-image: url("../img/fb-icon.png");
   background-repeat: no-repeat;
-  top: 30px;
-  left: 34px;
+  background-position: center;
 }
 
 .inst-link{
   position: absolute;
   content: "";
-  width: 21px;
-  height: 22px;
+  width: 81px;
+  height: 81px;
   display: inline-block;
   background-image: url("../img/insta-icon.png");
   background-repeat: no-repeat;
-  top: 30px;
-  left: 31px;
+  background-position: center;
 }
 
 .discount-text h3{
