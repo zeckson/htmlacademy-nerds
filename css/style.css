@@ -373,7 +373,9 @@ header {
   font-size: 45px;
   line-height: 64px;
   color: #000000;
+  position: relative;
 }
+
 
 .table__secondary {
   font-size: 16px;
