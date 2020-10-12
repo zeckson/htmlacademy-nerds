@@ -192,7 +192,7 @@ header {
 }
 
 
-.header-gallery__button--red {
+.button--red {
   display: inline-block;
   margin-left: 14px;
   padding-top: 17px;
@@ -419,9 +419,6 @@ header {
   background-image: url("../img/map.jpg");
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.address-block {
   position: relative;
 }
 
@@ -429,13 +426,32 @@ header {
   position: absolute;
   width: 319px;
   height: 308px;
-  left: 75px;
+  left: 140px;
   top: 66px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: white;
 }
+
+.information__text h5 {
+  padding-top: 49px;
+  padding-bottom: 23px;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.information__text p {
+  padding-bottom: 38px;
+}
+
+.information-text__button--red {
+  margin-left: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 
 .popup-form {
   display: none;
@@ -459,7 +475,7 @@ header {
   padding-bottom: 68px;
 }
 
-.social-list__item{
+.social-list__item {
   position: relative;
   display: inline-block;
   width: 81px;
@@ -470,7 +486,7 @@ header {
   cursor: pointer;
 }
 
-.vk-link{
+.vk-link {
   position: absolute;
   content: "";
   width: 81px;
@@ -481,7 +497,8 @@ header {
   background-repeat: no-repeat;
   background-position: center;
 }
-.fb-link{
+
+.fb-link {
   position: absolute;
   content: "";
   width: 81px;
@@ -492,7 +509,7 @@ header {
   background-position: center;
 }
 
-.inst-link{
+.inst-link {
   position: absolute;
   content: "";
   width: 81px;
@@ -503,6 +520,10 @@ header {
   background-position: center;
 }
 
-.discount-text h3{
+
+.discount-text h3 {
   padding-bottom: 23px;
+  font-size: 36px;
+  line-height: 36px;
 }
+
