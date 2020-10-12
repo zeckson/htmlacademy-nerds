@@ -421,6 +421,17 @@ header {
   background-position: center;
   position: relative;
 }
+.information::after{
+  content: "";
+  background-image: url("../img/map-marker.png");
+  width: 231px;
+  height: 190px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50px;
+  left: 868px;
+
+}
 
 .information__text {
   position: absolute;
