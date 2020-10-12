@@ -308,7 +308,7 @@ header {
   display: inline-block;
   background: #EEEEEE;
   position: absolute;
-  top: 570px;
+  top: 640px;
 }
 
 .about__left-column h2 {
@@ -394,7 +394,7 @@ header {
   height: 2px;
   background: #EEEEEE;
   position: absolute;
-  top: 200px;
+  top: 205px;
 }
 
 .portfolio-list__item {
@@ -414,7 +414,8 @@ header {
 
 .information {
   min-height: 416px;
-  padding-top: 80px;
+  margin-top: 80px;
+  box-sizing: border-box;
   background-image: url("../img/map.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -448,15 +449,62 @@ header {
 
 .footer-content {
   display: flex;
+  align-items: center;
 }
 
 .social-list {
   display: flex;
   padding-right: 100px;
+  padding-top: 68px;
+  padding-bottom: 68px;
 }
 
-.social-list__item {
+.social-list__item{
+  position: relative;
+  display: inline-block;
   width: 81px;
   height: 81px;
+  border-radius: 50%;
   margin-right: 10px;
+  background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+  cursor: pointer;
+}
+
+.vk-link{
+  position: absolute;
+  content: "";
+  width: 26px;
+  height: 15px;
+  display: inline-block;
+  background-image: url("../img/vk-icon.png");
+  background-repeat: no-repeat;
+  top: 32px;
+  left: 27px;
+}
+.fb-link{
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 22px;
+  display: inline-block;
+  background-image: url("../img/fb-icon.png");
+  background-repeat: no-repeat;
+  top: 30px;
+  left: 34px;
+}
+
+.inst-link{
+  position: absolute;
+  content: "";
+  width: 21px;
+  height: 22px;
+  display: inline-block;
+  background-image: url("../img/insta-icon.png");
+  background-repeat: no-repeat;
+  top: 30px;
+  left: 31px;
+}
+
+.discount-text h3{
+  padding-bottom: 23px;
 }
