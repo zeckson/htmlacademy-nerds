@@ -1,0 +1,16 @@
+.portfolio-list__item:first-child
+.portfolio-list__item:nth-child(2),
+.portfolio-list__item:nth-child(3),
+.portfolio-list__item:last-child
+.portfolio-list__item:first-child:hover,
+.portfolio-list__item:first-child:focus,
+.portfolio-list__item:nth-child(2):hover,
+.portfolio-list__item:nth-child(2):focus,
+.portfolio-list__item:nth-child(3):hover,
+.portfolio-list__item:nth-child(3):focus,
+.portfolio-list__item:last-child:hover,
+.portfolio-list__item:last-child:focus
+.portfolio-list__item:first-child:active,
+.portfolio-list__item:nth-child(2):active,
+.portfolio-list__item:nth-child(3):active,
+.portfolio-list__item:last-child:active

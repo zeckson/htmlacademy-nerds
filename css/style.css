@@ -327,7 +327,7 @@ header {
   padding-right: 40px;
   padding-bottom: 15px;
   padding-left: 39px;
-  background: #FB565A;;
+  background: #FB565A;
   color: white;
   font-size: 16px;
   line-height: 18px;
@@ -336,7 +336,7 @@ header {
 }
 
 .btn--red {
-  background: background: #FB565A;;
+  background: background: #FB565A;
 }
 
 .btn--red:focus,
@@ -485,6 +485,7 @@ header {
   padding-bottom: 44px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   position: relative;
 }
 
@@ -501,17 +502,45 @@ header {
   position: relative;
 }
 
-.portfolio-list__item::before {
-  position: absolute;
+.portfolio-list__item:nth-child(2)::after,
+.portfolio-list__item:nth-child(3)::after,
+.portfolio-list__item:nth-child(4)::after{
   content: "";
+  position: absolute;
   display: inline-block;
   width: 2px;
   height: 52px;
   background: #EEEEEE;
-  top: 5px;
+  top: 13px;
   left: -45px;
 }
-
+.portfolio-list__item:nth-child(3)::after{
+  top: -5px;
+}
+.html-ac{
+  display: inline-block;
+  width: 199px;
+  height: 68px;
+  background-image: url("../img/logo-1.png");
+}
+.borodinsky{
+  display: inline-block;
+  width: 209px;
+  height: 90px;
+  background-image: url("../img/logo-2.png");
+}
+.pink{
+  display: inline-block;
+  width: 185px;
+  height: 52px;
+  background-image: url("../img/logo-3.png");
+}
+.mishka{
+  display: inline-block;
+  width: 173px;
+  height: 84px;
+  background-image: url("../img/logo-4.png");
+}
 .information {
   min-height: 416px;
   margin-top: 80px;
