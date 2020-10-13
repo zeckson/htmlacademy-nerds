@@ -652,7 +652,14 @@ header {
   background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
   cursor: pointer;
 }
-
+.social-list__item:hover,
+.social-list__item:focus{
+  background: linear-gradient(0deg, #E74246, #E74246), #FFFFFF;;
+}
+.social-list__item:active{
+  background: linear-gradient(0deg, #D7373B, #D7373B), #FFFFFF;
+  box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+}
 .vk-link {
   position: absolute;
   content: "";
@@ -687,7 +694,11 @@ header {
   background-position: center;
 }
 
-
+.vk-link:active,
+.inst-link:active,
+.fb-link:active{
+  opacity: 0.3;
+}
 .discount-text h3 {
   padding-bottom: 23px;
   font-size: 36px;
