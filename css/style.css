@@ -522,25 +522,49 @@ header {
   width: 199px;
   height: 68px;
   background-image: url("../img/logo-1.png");
+  opacity: 0.2;
 }
+
 .borodinsky{
   display: inline-block;
   width: 209px;
   height: 90px;
   background-image: url("../img/logo-2.png");
+  opacity: 0.2;
 }
+
 .pink{
   display: inline-block;
   width: 185px;
   height: 52px;
   background-image: url("../img/logo-3.png");
+  opacity: 0.2;
 }
 .mishka{
   display: inline-block;
   width: 173px;
   height: 84px;
   background-image: url("../img/logo-4.png");
+  opacity: 0.2;
 }
+
+.html-ac:hover,
+.html-ac:focus,
+.borodinsky:hover,
+.borodinsky:focus,
+.pink:hover,
+.pink:focus,
+.mishka:hover,
+.mishka:focus{
+  opacity: 1;
+}
+.html-ac:active,
+.borodinsky:active,
+.pink:active,
+.mishka:active{
+  opacity: 0.1;
+}
+
 .information {
   min-height: 416px;
   margin-top: 80px;
