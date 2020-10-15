@@ -620,16 +620,38 @@ header {
 }
 
 
-.popup-form {
-  display: none;
+.popup-form__wrapper{
+  display: block;
   width: 960px;
   height: 590px;
   position: absolute;
-  top: -150px;
-  left: 200px;
+  top: -137px;
+  left: 110px;
+  background: gray;
+  z-index: 1;
 }
-
-
+.popup-form{
+  position: relative;
+}
+.popup-form__close-btn{
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: inherit;
+  background-image: url("../img/close.png");
+  opacity: 0.3;
+  border: none;
+}
+.popup-form__close-btn:hover,
+.popup-form__close-btn:focus{
+  opacity: 1;
+  border: none;
+}
+.popup-form__close-btn:active{
+  opacity: 0.2;
+}
 .footer-content {
   display: flex;
   align-items: center;

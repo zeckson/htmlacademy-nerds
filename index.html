@@ -106,18 +106,20 @@
           тел. +7 (812) 275-75-75</p>
         <a class="button--red information-text__button--red" href="">Напишите нам</a>
       </div>
-    </div>
-    <div class="popup-form">
-      <form>
-        <h2>Напишите нам</h2>
-        <label for="name">Ваше имя</label>
-        <input id="name" type="text" name="name">
-        <label for="email">Ваш email</label>
-        <input id="email" type="email" name="email" required>
-        <textarea name="comment" id="comment-field" rows="5" cols="100">Текст комментария</textarea>
-        <input type="submit" value="Отправить">
-      </form>
-      <button>X</button>
+      <div class="popup-form__wrapper">
+        <div class="popup-form">
+          <form>
+            <h2>Напишите нам</h2>
+            <label for="name">Ваше имя</label>
+            <input id="name" type="text" name="name">
+            <label for="email">Ваш email</label>
+            <input id="email" type="email" name="email" required>
+            <textarea name="comment" id="comment-field" rows="5" cols="100">Текст комментария</textarea>
+            <input type="submit" value="Отправить">
+          </form>
+          <button class="popup-form__close-btn" type="button" name="popup__btn--close"></button>
+        </div>
+      </div>
     </div>
   </section>
 </main>
