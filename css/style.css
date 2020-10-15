@@ -627,18 +627,30 @@ header {
   position: absolute;
   top: -137px;
   left: 110px;
-  background: gray;
+  box-sizing: border-box;
   z-index: 1;
+  background: gray;
 }
 .popup-form{
   position: relative;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.popup-form h2{
+  padding-top: 63px;
+  padding-bottom: 37px;
+  font-size: 42px;
+  line-height: 53px;
+  font-weight: bold;
+
 }
 .popup-form__close-btn{
   width: 21px;
   height: 21px;
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 111px;
+  top: 78px;
   background: inherit;
   background-image: url("../img/close.png");
   opacity: 0.3;
@@ -652,6 +664,8 @@ header {
 .popup-form__close-btn:active{
   opacity: 0.2;
 }
+
+
 .footer-content {
   display: flex;
   align-items: center;
