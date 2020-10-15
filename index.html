@@ -110,11 +110,18 @@
         <div class="popup">
           <h2>Напишите нам</h2>
           <form class="popup__form">
-            <label for="name" class="popup__label-name">Ваше имя</label>
-            <input id="name" class="popup__input-name" type="text" name="name">
-            <label for="email" class="popup__label-email">Ваш email</label>
-            <input id="email" type="email" name="email" class="popup__input-email" required>
-            <textarea class="popup__textarea" name="comment" id="comment-field" rows="5" cols="100" >Текст комментария</textarea>
+            <div class="popup__form-name">
+              <label for="name" class="popup__label">Ваше имя</label>
+              <input id="name" class="popup__input" type="text" name="name">
+            </div>
+            <div class="popup__form-email">
+              <label for="email" class="popup__label">Ваш email</label>
+              <input id="email" type="email" name="email" class="popup__input" required>
+            </div>
+            <div class="popup__form-textarea">
+              <label for="comment-field" class="popup__label">Текст письма</label>
+              <input id="comment-field" class="popup__input--textarea"  type="text" name="comment">
+            </div>
             <input class="button--red popup__btn-submit" type="submit" value="Отправить">
           </form>
           <button class="popup-form__close-btn" type="button" name="popup__btn--close"></button>
