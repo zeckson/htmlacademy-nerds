@@ -620,7 +620,7 @@ header {
 }
 
 
-.popup-form__wrapper{
+.popup__wrapper{
   display: block;
   width: 960px;
   height: 590px;
@@ -631,20 +631,27 @@ header {
   z-index: 1;
   background: gray;
 }
-.popup-form{
+.popup{
   position: relative;
   padding-left: 100px;
   padding-right: 100px;
 }
 
-.popup-form h2{
+.popup h2{
   padding-top: 63px;
   padding-bottom: 37px;
   font-size: 42px;
   line-height: 53px;
   font-weight: bold;
-
 }
+
+
+.popup__btn-submit {
+  border: none;
+  padding-left: 83px;
+  padding-right: 83px;
+}
+
 .popup-form__close-btn{
   width: 21px;
   height: 21px;
