@@ -691,12 +691,12 @@ header {
   display: flex;
   flex-direction: column;
 }
-.popup__input--textarea {
+.popup__textarea {
   width: 760px;
   height: 118px;
+  border: 2px solid #D7DCDE;
   border-radius: 3px;
   box-sizing: border-box;
-  flex-grow: 1;
   margin-bottom: 47px;
 }
 
