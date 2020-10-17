@@ -106,18 +106,27 @@
           тел. +7 (812) 275-75-75</p>
         <a class="button--red information-text__button--red" href="">Напишите нам</a>
       </div>
-    </div>
-    <div class="popup-form">
-      <form>
-        <h2>Напишите нам</h2>
-        <label for="name">Ваше имя</label>
-        <input id="name" type="text" name="name">
-        <label for="email">Ваш email</label>
-        <input id="email" type="email" name="email" required>
-        <textarea name="comment" id="comment-field" rows="5" cols="100">Текст комментария</textarea>
-        <input type="submit" value="Отправить">
-      </form>
-      <button>X</button>
+      <div class="popup__wrapper">
+        <div class="popup">
+          <h2>Напишите нам</h2>
+          <form class="popup__form">
+            <div class="popup__form-name">
+              <label for="name" class="popup__label">Ваше имя</label>
+              <input id="name" class="popup__input" type="text" name="name">
+            </div>
+            <div class="popup__form-email">
+              <label for="email" class="popup__label">Ваш email</label>
+              <input id="email" class="popup__input"  type="email" name="email" required>
+            </div>
+            <div class="popup__form-textarea">
+              <label for="comment-field" class="popup__label">Текст письма</label>
+              <textarea id="comment-field" class="popup__textarea" name="comment"></textarea>
+            </div>
+            <button class="button--red popup__btn-submit" type="submit" value="Отправить">Отправить</button>
+          </form>
+          <button class="popup-form__close-btn" type="button" name="popup__btn--close"></button>
+        </div>
+      </div>
     </div>
   </section>
 </main>

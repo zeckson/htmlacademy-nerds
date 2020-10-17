@@ -365,18 +365,21 @@ header {
   box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 }
 
-.btn--yellow{
+.btn--yellow {
   background: #EFC84A;
 }
+
 .btn--yellow:hover,
-.btn--yellow:focus{
+.btn--yellow:focus {
   background: #EAB534;
 }
-.btn--yellow:active{
+
+.btn--yellow:active {
   color: rgba(255, 255, 255, 0.3);
   background: #E5A722;
   box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 }
+
 .about {
   min-height: 525px;
   padding-bottom: 73px;
@@ -504,7 +507,7 @@ header {
 
 .portfolio-list__item:nth-child(2)::after,
 .portfolio-list__item:nth-child(3)::after,
-.portfolio-list__item:nth-child(4)::after{
+.portfolio-list__item:nth-child(4)::after {
   content: "";
   position: absolute;
   display: inline-block;
@@ -514,10 +517,12 @@ header {
   top: 13px;
   left: -45px;
 }
-.portfolio-list__item:nth-child(3)::after{
+
+.portfolio-list__item:nth-child(3)::after {
   top: -5px;
 }
-.html-ac{
+
+.html-ac {
   display: inline-block;
   width: 199px;
   height: 68px;
@@ -525,7 +530,7 @@ header {
   opacity: 0.2;
 }
 
-.borodinsky{
+.borodinsky {
   display: inline-block;
   width: 209px;
   height: 90px;
@@ -533,14 +538,15 @@ header {
   opacity: 0.2;
 }
 
-.pink{
+.pink {
   display: inline-block;
   width: 185px;
   height: 52px;
   background-image: url("../img/logo-3.png");
   opacity: 0.2;
 }
-.mishka{
+
+.mishka {
   display: inline-block;
   width: 173px;
   height: 84px;
@@ -555,13 +561,14 @@ header {
 .pink:hover,
 .pink:focus,
 .mishka:hover,
-.mishka:focus{
+.mishka:focus {
   opacity: 1;
 }
+
 .html-ac:active,
 .borodinsky:active,
 .pink:active,
-.mishka:active{
+.mishka:active {
   opacity: 0.1;
 }
 
@@ -620,13 +627,116 @@ header {
 }
 
 
-.popup-form {
-  display: none;
+.popup__wrapper {
+  display: block;
   width: 960px;
   height: 590px;
   position: absolute;
-  top: -150px;
-  left: 200px;
+  top: -137px;
+  left: 110px;
+  box-sizing: border-box;
+  z-index: 1;
+  background: #FFFFFF;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.popup {
+  position: relative;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.popup h2 {
+  padding-top: 63px;
+  padding-bottom: 37px;
+  font-size: 42px;
+  line-height: 53px;
+  font-weight: bold;
+}
+
+.popup__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.popup__label {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  padding-bottom: 10px;
+}
+
+
+.popup__input {
+  width: 360px;
+  height: 50px;
+  border: 2px solid #D7DCDE;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 34px;
+}
+
+.popup__form-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup__form-email {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup__form-textarea{
+  display: flex;
+  flex-direction: column;
+}
+.popup__textarea {
+  width: 760px;
+  height: 118px;
+  border: 2px solid #D7DCDE;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 47px;
+}
+
+.popup__btn-submit {
+  border: none;
+  padding-left: 83px;
+  padding-right: 83px;
+  margin-left: 0;
+}
+
+.popup-form__close-btn {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  right: 90px;
+  top: 78px;
+  background: inherit;
+  background-image: url("../img/close.png");
+  opacity: 0.3;
+  border: none;
+}
+
+input:invalid{
+  border: 2px solid #E74246;
+}
+input:valid{
+  border: 2px solid #D7DCDE;
+}
+
+input:required{
+  border: 2px solid #D7DCDE;
+}
+.popup-form__close-btn:hover,
+.popup-form__close-btn:focus {
+  opacity: 1;
+  border: none;
+}
+
+.popup-form__close-btn:active {
+  opacity: 0.2;
 }
 
 
@@ -652,14 +762,17 @@ header {
   background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
   cursor: pointer;
 }
+
 .social-list__item:hover,
-.social-list__item:focus{
+.social-list__item:focus {
   background: linear-gradient(0deg, #E74246, #E74246), #FFFFFF;;
 }
-.social-list__item:active{
+
+.social-list__item:active {
   background: linear-gradient(0deg, #D7373B, #D7373B), #FFFFFF;
   box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 }
+
 .vk-link {
   position: absolute;
   content: "";
@@ -696,9 +809,10 @@ header {
 
 .vk-link:active,
 .inst-link:active,
-.fb-link:active{
+.fb-link:active {
   opacity: 0.3;
 }
+
 .discount-text h3 {
   padding-bottom: 23px;
   font-size: 36px;
