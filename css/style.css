@@ -969,8 +969,14 @@ input:required {
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
 }
 
+.price-count__button:hover{
+  background-color: #DFDFDF;;
+}
 
-
+.price-count__button:active{
+  background: #D5D5D5;
+  opacity: 0.5;
+}
 
 
 
