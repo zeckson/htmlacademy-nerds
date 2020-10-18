@@ -751,10 +751,13 @@ input:required {
 
 .catalog-wrapper {
   padding-top: 55px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .price-count {
   width: 260px;
+  padding-right: 140px;
   display: flex;
   flex-direction: column;
 }
@@ -977,6 +980,85 @@ input:required {
   background: #D5D5D5;
   opacity: 0.5;
 }
+
+.sort {
+  width: 760px;
+  display: flex;
+}
+
+.sort h4{
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+  flex-grow: 1;
+}
+
+.sort__input {
+  visibility: hidden;
+}
+
+.sort__label {
+  color: black;
+  opacity: 50%;
+  text-transform: lowercase;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.sort__label:hover {
+  opacity: 75%;
+}
+
+.sort__label:active {
+  opacity: 100%;
+}
+.sort__button{
+  margin-left: 47px;
+}
+
+.down {
+  width: 11px;
+  height: 10px;
+  padding: 0;
+  margin-right: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: inherit;
+  background-image: url("../img/icon-down.svg");
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.up {
+  width: 11px;
+  height: 10px;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: inherit;
+  background-image:url("../img/icon-down.svg") ;
+  transform: rotate(180deg);
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.down:hover,
+.down:focus,
+.up:hover,
+.up:focus{
+  opacity: 0.75;
+}
+
+.down:active,
+.up:active{
+  opacity: 1;
+}
+
+
+
+
 
 
 
