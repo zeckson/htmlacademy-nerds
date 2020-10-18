@@ -845,9 +845,6 @@ input:required {
   text-transform: uppercase;
 }
 
-
-
-
 .grid-filter {
   padding-top: 54px;
   display: flex;
@@ -899,6 +896,59 @@ input:required {
 .grid-filter__input:disabled + .radio-fake {
   opacity: 50%;
   background-image: url("../img/radio-off.svg");
+}
+
+.property {
+  display: flex;
+  flex-direction: column;
+  padding-top: 46px;
+}
+
+.property h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding-left: 2px;
+  margin-bottom: 13px;
+}
+
+.property__input {
+  -webkit-appearance: none;
+  position: absolute;
+}
+
+.property__label {
+  height: 25px;
+  margin-bottom: 15px;
+  padding-left: 37px;
+}
+
+.check-fake {
+  width: 26px;
+  height: 23px;
+  margin-left: -35px;
+  position: absolute;
+  background: url("../img/checkbox-off.svg") no-repeat;
+  opacity: 50%;
+}
+
+.property__input:hover + .check-fake {
+  background-image: url("../img/checkbox-off.svg");
+  opacity: 100%;
+}
+
+.property__input:checked + .check-fake {
+  background-image: url("../img/checkbox-on.svg");
+  opacity: 100%;
+}
+
+.property__input:disabled + .check-fake {
+  opacity: 30%;
+  background-image: url("../img/checkbox-off.svg");
+}
+
+.property__input:disabled:checked + .check-fake {
+  opacity: 30%;
+  background-image: url("../img/checkbox-on.svg");
 }
 
 
