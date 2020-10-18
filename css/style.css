@@ -264,6 +264,12 @@ header {
   display: none;
 }
 
+.page-pointer h1{
+  padding-top: 72px;
+  padding-bottom: 108px;
+  text-align: center;
+}
+
 .center-block {
   width: 1160px;
   margin: 0 auto;
@@ -818,4 +824,6 @@ input:required{
   font-size: 36px;
   line-height: 36px;
 }
+
+
 
