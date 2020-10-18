@@ -868,6 +868,7 @@ input:required {
   position: absolute;
   appearance: none;
   -webkit-appearance: none;
+  visibility: hidden;
 }
 
 .radio-fake {
@@ -914,6 +915,7 @@ input:required {
 .property__input {
   -webkit-appearance: none;
   position: absolute;
+  visibility: hidden;
 }
 
 .property__label {
