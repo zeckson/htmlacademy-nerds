@@ -749,13 +749,12 @@ input:required {
 }
 
 
-
-
 .catalog-wrapper {
   padding-top: 55px;
 }
 
 .price-count {
+  width: 260px;
   display: flex;
   flex-direction: column;
 }
@@ -808,10 +807,39 @@ input:required {
   left: 160px;
 }
 
+.price-controls {
+  display: flex;
+}
 
+.price-controls label {
+  font-size: 16px;
+  line-height: 22px;
+  align-self: center;
+}
 
+.price-controls input {
+  width: 80px;
+  height: 38px;
+  padding: 0;
+  margin-left: 11px;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #283136;
+  border: none;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
 
+.max-price {
+  margin-left: 33px;
+  text-transform: uppercase;
+}
 
+.min-price {
+  margin: 0;
+  text-transform: uppercase;
+}
 
 
 .footer-content {
