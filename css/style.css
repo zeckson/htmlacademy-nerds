@@ -859,7 +859,7 @@ input:required {
   font-size: 18px;
   line-height: 30px;
   text-transform: uppercase;
-  margin-bottom:16px;
+  margin-bottom: 16px;
 }
 
 .grid-filter__label {
@@ -972,13 +972,18 @@ input:required {
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
 }
 
-.price-count__button:hover{
-  background-color: #DFDFDF;;
+.price-count__button:hover {
+  background-color: #DFDFDF;
 }
 
-.price-count__button:active{
+.price-count__button:active {
   background: #D5D5D5;
   opacity: 0.5;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
 }
 
 .sort {
@@ -986,7 +991,7 @@ input:required {
   display: flex;
 }
 
-.sort h4{
+.sort h4 {
   text-transform: uppercase;
   font-size: 18px;
   line-height: 18px;
@@ -1012,7 +1017,8 @@ input:required {
 .sort__label:active {
   opacity: 100%;
 }
-.sort__button{
+
+.sort__button {
   margin-left: 47px;
 }
 
@@ -1038,7 +1044,7 @@ input:required {
   outline: none;
   cursor: pointer;
   background-color: inherit;
-  background-image:url("../img/icon-down.svg") ;
+  background-image: url("../img/icon-down.svg");
   transform: rotate(180deg);
   background-repeat: no-repeat;
   opacity: 0.5;
@@ -1047,19 +1053,21 @@ input:required {
 .down:hover,
 .down:focus,
 .up:hover,
-.up:focus{
+.up:focus {
   opacity: 0.75;
 }
 
 .down:active,
-.up:active{
+.up:active {
   opacity: 1;
 }
 
 
-
-
-
+.catalog-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 
 .footer-content {
