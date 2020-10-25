@@ -1083,6 +1083,7 @@ input:required {
   display: flex;
   align-items: center;
   margin-bottom: -2px;
+  opacity: 0.5;
 }
 
 .browser-mini__button {
@@ -1109,6 +1110,18 @@ input:required {
   position: absolute;
   z-index: 1;
   top: 384px
+}
+
+.sample__specification{
+  visibility: hidden;
+}
+
+.first-sample:hover .sample__specification{
+  visibility: visible;
+}
+
+.first-sample:hover .browser-mini{
+  opacity: 1;
 }
 
 
