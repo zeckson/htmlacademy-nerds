@@ -1116,11 +1116,11 @@ input:required {
   visibility: hidden;
 }
 
-.first-sample:hover .sample__specification{
+.gallery__sample:hover .sample__specification{
   visibility: visible;
 }
 
-.first-sample:hover .browser-mini{
+.gallery__sample:hover .browser-mini{
   opacity: 1;
 }
 
