@@ -1067,6 +1067,48 @@ input:required {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 48px;
+}
+
+.catalog-slide--position {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.browser-mini {
+  width: 358px;
+  height: 40px;
+  background-color: rgb(77, 77, 77);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  margin-bottom: -2px;
+}
+
+.browser-mini__button {
+  width: 14px;
+  height: 14px;
+  margin-right: 9px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.browser-mini__button:first-child {
+  margin-left: 15px;
+}
+
+.sample__specification{
+  width: 358px;
+  height: 231px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  background-color: #EEEEEE;
+  position: absolute;
+  z-index: 1;
+  top: 384px
 }
 
 
