@@ -168,6 +168,10 @@ header {
   opacity: 1;
 }
 
+.header-gallery__wrapper {
+  position: relative;
+}
+
 .header-gallery {
   width: 1160px;
   margin: 0 auto;
@@ -262,6 +266,34 @@ header {
 .slide-first,
 .slide-second {
   display: none;
+}
+
+.header-gallery__btn-list {
+  position: absolute;
+  left: 519px;
+  top: 326px;
+  width: 200px;
+  height: 10px;
+  text-align: center;
+  z-index: 2;
+}
+
+.slide-first__btn,
+.slide-second__btn,
+.slide-third__btn {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border: 5px solid white;
+  vertical-align: top;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: white;
+}
+
+.header-gallery__btn--active {
+  background-color: #666666;
 }
 
 .page-pointer h1 {
@@ -1318,7 +1350,7 @@ input:required {
   line-height: 36px;
 }
 
-.modal--show{
+.modal--show {
   visibility: visible;
 }
 

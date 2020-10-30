@@ -17,26 +17,33 @@
     </ul>
     <a class="header-cart" href="#"><img src="img/cart-icon.svg" width="15" height="15" alt="cart img">Корзина</a>
   </nav>
-  <ul class="header-gallery">
-    <li class="slide-first">
-      <h1>Долго, дорого,<br>скрупулезно.</h1>
-      <p>Математически выверенный дизайн<br>
-        для вашего сайта или мобильного приложения.</p>
-      <a class="button--red" href="">Узнать больше</a>
-    </li>
-    <li class="slide-second">
-      <h1>Любим математику<br>как никто другой</h1>
-      <p>Никакого креатива, только математические формулы<br>
-        для расчета идеальных пропорций</p>
-      <a class="button--red" href="">Узнать больше</a>
-    </li>
-    <li class="slide-third">
-      <h1>Только ночь,<br>то лько хардкор</h1>
-      <p>Работать днем, как все? Мы против этого.<br>
-        Ближе к полуночи работа только начинается.</p>
-      <a class="button--red" href="">Узнать больше</a>
-    </li>
-  </ul>
+  <section class="header-gallery__wrapper">
+    <ul class="header-gallery">
+      <li class="slide-first">
+        <h1>Долго, дорого,<br>скрупулезно.</h1>
+        <p>Математически выверенный дизайн<br>
+          для вашего сайта или мобильного приложения.</p>
+        <a class="button--red" href="">Узнать больше</a>
+      </li>
+      <li class="slide-second">
+        <h1>Любим математику<br>как никто другой</h1>
+        <p>Никакого креатива, только математические формулы<br>
+          для расчета идеальных пропорций</p>
+        <a class="button--red" href="">Узнать больше</a>
+      </li>
+      <li class="slide-third">
+        <h1>Только ночь,<br>то лько хардкор</h1>
+        <p>Работать днем, как все? Мы против этого.<br>
+          Ближе к полуночи работа только начинается.</p>
+        <a class="button--red" href="">Узнать больше</a>
+      </li>
+    </ul>
+    <ul class="header-gallery__btn-list">
+      <li class="slide-first__btn header-gallery__btn--active"></li>
+      <li class="slide-second__btn"></li>
+      <li class="slide-third__btn"></li>
+    </ul>
+  </section>
 </header>
 <main>
   <ul class="products center-block">
@@ -146,8 +153,7 @@
 <script>
     const writeUs = document.querySelector(".information__button--red");
     const popUp = document.querySelector(".popup__wrapper");
-    const popUpClose = document.querySelector(".popup-form__close-btn")
-      
+    const popUpClose = document.querySelector(".popup-form__close-btn");
     writeUs.addEventListener("click", function (evt) {
         evt.preventDefault();
         popUp.classList.add("modal--show");
@@ -155,9 +161,7 @@
     popUpClose.addEventListener("click", function (evt) {
         evt.preventDefault();
         popUp.classList.remove("modal--show");
-    })
-
-
+    });
 </script>
 </body>
 </html>
