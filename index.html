@@ -19,7 +19,7 @@
   </nav>
   <section class="header-gallery__wrapper">
     <ul class="header-gallery">
-      <li class="slide-first">
+      <li class="slide-first display-block">
         <h1>Долго, дорого,<br>скрупулезно.</h1>
         <p>Математически выверенный дизайн<br>
           для вашего сайта или мобильного приложения.</p>
@@ -39,7 +39,7 @@
       </li>
     </ul>
     <ul class="header-gallery__btn-list">
-      <li class="slide-first__btn header-gallery__btn--active"></li>
+      <li class="slide-first__btn slide__btn--active"></li>
       <li class="slide-second__btn"></li>
       <li class="slide-third__btn"></li>
     </ul>
@@ -154,13 +154,48 @@
     const writeUs = document.querySelector(".information__button--red");
     const popUp = document.querySelector(".popup__wrapper");
     const popUpClose = document.querySelector(".popup-form__close-btn");
+    const slideFirst = document.querySelector(".slide-first");
+    const slideSecond = document.querySelector(".slide-second");
+    const slideThird = document.querySelector(".slide-third");
+    const slideFirstBtn = document.querySelector(".slide-first__btn");
+    const slideSecondBtn = document.querySelector(".slide-second__btn");
+    const slideThirdBtn = document.querySelector(".slide-third__btn");
+
+
     writeUs.addEventListener("click", function (evt) {
         evt.preventDefault();
-        popUp.classList.add("modal--show");
+        popUp.classList.add("display-block");
     });
     popUpClose.addEventListener("click", function (evt) {
         evt.preventDefault();
-        popUp.classList.remove("modal--show");
+        popUp.classList.remove("display-block");
+    });
+    slideFirstBtn.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        slideFirst.classList.add("display-block");
+        slideSecond.classList.remove("display-block");
+        slideThird.classList.remove("display-block");
+        slideFirstBtn.classList.add("slide__btn--active");
+        slideSecondBtn.classList.remove("slide__btn--active");
+        slideThirdBtn.classList.remove("slide__btn--active");
+    });
+    slideSecondBtn.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        slideSecond.classList.add("display-block");
+        slideFirst.classList.remove("display-block");
+        slideThird.classList.remove("display-block");
+        slideSecondBtn.classList.add("slide__btn--active");
+        slideFirstBtn.classList.remove("slide__btn--active");
+        slideThirdBtn.classList.remove("slide__btn--active");
+    });
+    slideThirdBtn.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        slideThird.classList.add("display-block");
+        slideFirst.classList.remove("display-block");
+        slideSecond.classList.remove("display-block");
+        slideThirdBtn.classList.add("slide__btn--active");
+        slideSecondBtn.classList.remove("slide__btn--active");
+        slideFirstBtn.classList.remove("slide__btn--active");
     });
 </script>
 </body>

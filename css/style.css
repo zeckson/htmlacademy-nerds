@@ -264,9 +264,12 @@ header {
 }
 
 .slide-first,
-.slide-second {
+.slide-second,
+.slide-third{
   display: none;
 }
+
+
 
 .header-gallery__btn-list {
   position: absolute;
@@ -292,7 +295,7 @@ header {
   background-color: white;
 }
 
-.header-gallery__btn--active {
+.slide__btn--active {
   background-color: #666666;
 }
 
@@ -1155,7 +1158,7 @@ header {
 
 
 .popup__wrapper {
-  display: block;
+  display: none;
   width: 960px;
   height: 590px;
   position: absolute;
@@ -1165,7 +1168,7 @@ header {
   z-index: 1;
   background: #FFFFFF;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-  visibility: hidden;
+
 }
 
 .popup {
@@ -1350,7 +1353,7 @@ input:required {
   line-height: 36px;
 }
 
-.modal--show {
-  visibility: visible;
+.display-block {
+  display: block;
 }
 
