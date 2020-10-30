@@ -104,7 +104,7 @@
           ул. Б. Конюшенная, д. 19/8<br>
           <br>
           тел. +7 (812) 275-75-75</p>
-        <a class="button--red information-text__button--red" href="">Напишите нам</a>
+        <a class="button--red information__button--red" href="">Напишите нам</a>
       </div>
       <div class="popup__wrapper">
         <div class="popup">
@@ -116,7 +116,7 @@
             </div>
             <div class="popup__form-email">
               <label for="email" class="popup__label">Ваш email</label>
-              <input id="email" class="popup__input"  type="email" name="email" required>
+              <input id="email" class="popup__input" type="email" name="email" required>
             </div>
             <div class="popup__form-textarea">
               <label for="comment-field" class="popup__label">Текст письма</label>
@@ -143,5 +143,21 @@
     </section>
   </div>
 </footer>
+<script>
+    const writeUs = document.querySelector(".information__button--red");
+    const popUp = document.querySelector(".popup__wrapper");
+    const popUpClose = document.querySelector(".popup-form__close-btn")
+      
+    writeUs.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        popUp.classList.add("modal--show");
+    });
+    popUpClose.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        popUp.classList.remove("modal--show");
+    })
+
+
+</script>
 </body>
 </html>

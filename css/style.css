@@ -1115,7 +1115,7 @@ header {
   padding-bottom: 38px;
 }
 
-.information-text__button--red {
+.information__button--red {
   margin-left: 0;
   padding-left: 40px;
   padding-right: 40px;
@@ -1318,5 +1318,7 @@ input:required {
   line-height: 36px;
 }
 
-
+.modal--show{
+  visibility: visible;
+}
 
