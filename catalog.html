@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>catalog</title>
+  <link rel="stylesheet" href="css/style.css ">
+</head>
+<body>
+<header>
+  <nav class="header-nav center-block">
+    <a href="index.html"><img class="header-logo" src="img/nerds-logo.svg" width="160" height="66" alt="Nerds logo"></a>
+    <ul class="nav-list">
+      <li class="nav-list__item"><a href="#">Студия</a></li>
+      <li class="nav-list__item"><a href="#">Клиенты</a></li>
+      <li class="nav-list__item"><a href="#">Магазин</a></li>
+      <li class="nav-list__item"><a href="#">Контакты</a></li>
+    </ul>
+    <a class="header-cart" href="#"><img src="img/cart-icon.svg" width="15" height="15" alt="cart img">Корзина</a>
+  </nav>
+  <div class="page-pointer center-block">
+    <h1>Магазин готовых шаблонов</h1>
+  </div>
+</header>
+<main>
+  <div class="catalog-wrapper center-block">
+    <section class="price-count">
+      <form class="price-count__form" method="get" action="#">
+        <section class="cost">
+          <h4>Стоимость:</h4>
+          <section class="cost__filter">
+            <article class="range-controls">
+              <div class="scale">
+                <div class="scale__progress"></div>
+              </div>
+              <div class="toggle toggle-min"></div>
+              <div class="toggle toggle-max"></div>
+            </article>
+            <article class="price-controls">
+              <label for="min-price" class="min-price">от</label>
+              <input id="min-price" name="min-price" type="number" min="0" value="0">
+              <label class="max-price" for="max-price">до</label>
+              <input id="max-price" name="max-price" type="number" max="15000" value="15000">
+            </article>
+          </section>
+        </section>
+        <section class="grid-filter">
+          <h4>Сетка:</h4>
+          <label for="radio-option1" class="grid-filter__label"><input id="radio-option1" class="grid-filter__input"
+                                                                       type="radio" name="option">
+            <div class="radio-fake"></div>
+            Адаптивная</label>
+          <label for="radio-option2" class="grid-filter__label"><input id="radio-option2" class="grid-filter__input"
+                                                                       type="radio" name="option" checked>
+            <div class="radio-fake"></div>
+            Фиксированная</label>
+          <label for="radio-option3" class="grid-filter__label"><input id="radio-option3" class="grid-filter__input"
+                                                                       type="radio" name="option" disabled>
+            <div class="radio-fake"></div>
+            Резиновая</label>
+        </section>
+        <section class="property">
+          <h4>Особенности:</h4>
+          <label for="slider" class="property__label"><input id="slider" class="property__input" type="checkbox"
+                                                             name="slider" checked>
+            <div class="check-fake"></div>
+            Слайдер</label>
+          <label for="block-advant" class="property__label"><input id="block-advant" class="property__input"
+                                                                   type="checkbox" name="block-advant">
+            <div class="check-fake"></div>
+            Блок преимуществ</label>
+          <label for="news" class="property__label"><input id="news" class="property__input" type="checkbox"
+                                                           name="news">
+            <div class="check-fake"></div>
+            Новости</label>
+          <label for="gallery" class="property__label"><input id="gallery" class="property__input" type="checkbox"
+                                                              name="gallery" disabled>
+            <div class="check-fake"></div>
+            Галерея</label>
+          <label for="cart" class="property__label"><input id="cart" class="property__input" type="checkbox"
+                                                           name="basket" checked disabled>
+            <div class="check-fake"></div>
+            Корзина</label>
+        </section>
+        <input class="price-count__button" type="submit" name="price-count__button" value="показать">
+      </form>
+    </section>
+    <section class="offer">
+      <form class="sort">
+        <h4>сортировать:</h4>
+        <label class="sort__label"><input class="sort__input" type="radio" name="sort">по цене</label>
+        <label class="sort__label"><input class="sort__input" type="radio" name="sort">по типу</label>
+        <label class="sort__label"><input class="sort__input" type="radio" name="sort">по названию</label>
+        <div class="sort__button">
+          <input type="button" class="down">
+          <input type="button" class="up">
+        </div>
+      </form>
+      <ul class="catalog-gallery">
+        <li class="first-sample gallery__sample catalog-slide--position">
+          <ul class="browser-mini">
+            <li class="browser-mini__button"></li>
+            <li class="browser-mini__button"></li>
+            <li class="browser-mini__button"></li>
+          </ul>
+          <img src="img/img-sedona.jpg" width="358" height="577" alt="sample-sedona">
+          <div class="sample__specification">
+            <a href="#"><h5>sedona</h5></a>
+            <p>
+              Информационный сайт<br>для туристов
+            </p>
+            <button class="sample__btn">9900₽</button>
+          </div>
+        </li>
+        <li class="second-sample gallery__sample catalog-slide--position">
+          <ul class="browser-mini">
+            <li class="browser-mini__button"></li>
+            <li class="browser-mini__button"></li>
+            <li class="browser-mini__button"></li>
+          </ul>
+          <img src="img/img-pink.jpg" width="358" height="578" alt="sample-pink">
+          <div class="sample__specification">
+            <a href="#"><h5>pink app</h5></a>
+            <p>
+              Продуктовый лендинг<br>приложения для iOS и Android
+            </p>
+            <button class="sample__btn">9900₽</button>
+          </div>
+        </li>
+        <li class="third-sample gallery__sample catalog-slide--position">
+          <ul class="browser-mini">
+            <li class="browser-mini__button"></li>
+            <li class="browser-mini__button"></li>
+            <li class="browser-mini__button"></li>
+          </ul>
+          <img src="img/img-barbershop.jpg" width="358" height="578" alt="sample-barbershop">
+          <div class="sample__specification">
+           <a href="#"><h5>barbershop</h5></a>
+            <p>
+              Сайт салона красоты.<br>Для мужчин, да.
+            </p>
+            <button class="sample__btn">9900₽</button>
+          </div>
+        </li>
+        <li class="fourth-sample gallery__sample catalog-slide--position">
+          <ul class="browser-mini">
+            <li class="browser-mini__button"></li>
+            <li class="browser-mini__button"></li>
+            <li class="browser-mini__button"></li>
+          </ul>
+          <img src="img/img-mishka.jpg" width="358" height="578" alt="sample-mishka">
+          <div class="sample__specification">
+            <a href="#"><h5>mishka</h5></a>
+            <p>
+              Интернет-магазин<br>вязаных игрушек
+            </p>
+            <button class="sample__btn">9900₽</button>
+          </div>
+        </li>
+        <li class="fifth-sample gallery__sample catalog-slide--position">
+          <ul class="browser-mini">
+            <li class="browser-mini__button"></li>
+            <li class="browser-mini__button"></li>
+            <li class="browser-mini__button"></li>
+          </ul>
+          <img src="img/img-aplus.jpg" width="358" height="578" alt="sample-aplus">
+          <div class="sample__specification">
+            <a href="#"><h5>a plus</h5></a>
+            <p>
+              Лендинг курсов<br>повышения квалификации
+            </p>
+            <button class="sample__btn">9900₽</button>
+          </div>
+        </li>
+        <li class="sixth-sample gallery__sample catalog-slide--position">
+          <ul class="browser-mini">
+            <li class="browser-mini__button"></li>
+            <li class="browser-mini__button"></li>
+            <li class="browser-mini__button"></li>
+          </ul>
+          <img src="img/img-kvast.jpg" width="358" height="578" alt="sample-kvast">
+          <div class="sample__specification">
+            <a href="#"><h5>кваст</h5></a>
+            <p>
+              Промо-сайт производителя<br>крафтового кваса
+            </p>
+            <button class="sample__btn">9900₽</button>
+          </div>
+        </li>
+      </ul>
+      <section class="page-control">
+        <a class="control-style control-style--active" href="catalog.html">1</a>
+        <a class="control-style" href="">2</a>
+        <a class="control-style" href="">3</a>
+        <button class="page-control__button">следующая</button>
+      </section>
+    </section>
+  </div>
+  <section class="information">
+    <div class="center-block information-wrapper">
+      <div class="information__text">
+        <h5>NЁRDS DESIGN STUDIO</h5>
+        <p>
+          191186, Санкт-Петербург,<br>
+          ул. Б. Конюшенная, д. 19/8<br>
+          <br>
+          тел. +7 (812) 275-75-75</p>
+        <a class="button--red information__button--red" href="">Напишите нам</a>
+      </div>
+      <div class="popup__wrapper">
+        <div class="popup">
+          <h2>Напишите нам</h2>
+          <form class="popup__form">
+            <div class="popup__form-name">
+              <label for="name" class="popup__label">Ваше имя</label>
+              <input id="name" class="popup__input" type="text" name="name">
+            </div>
+            <div class="popup__form-email">
+              <label for="email" class="popup__label">Ваш email</label>
+              <input id="email" class="popup__input"  type="email" name="email" required>
+            </div>
+            <div class="popup__form-textarea">
+              <label for="comment-field" class="popup__label">Текст письма</label>
+              <textarea id="comment-field" class="popup__textarea" name="comment"></textarea>
+            </div>
+            <button class="button--red popup__btn-submit" type="submit" value="Отправить">Отправить</button>
+          </form>
+          <button class="popup-form__close-btn" type="button" name="popup__btn--close"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="footer-content center-block">
+    <ul class="social-list">
+      <li class="social-list__item"><a class="vk-link" href="#"></a></li>
+      <li class="social-list__item"><a class="fb-link" href="#"></a></li>
+      <li class="social-list__item"><a class="inst-link" href="#"></a></li>
+    </ul>
+    <section class="discount-text">
+      <h3>Давайте дружить, это выгодно!</h3>
+      <p>Скидка 10% для друзей из социальных сетей.</p>
+    </section>
+  </div>
+</footer>
+</body>
+</html>
