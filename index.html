@@ -159,11 +159,12 @@
     const slideFirstBtn = document.querySelector(".slide-first__btn");
     const slideSecondBtn = document.querySelector(".slide-second__btn");
     const slideThirdBtn = document.querySelector(".slide-third__btn");
-
+    const loginFocus = popUp.querySelector("[name=name]");
 
     writeUs.addEventListener("click", function (evt) {
         evt.preventDefault();
         popUp.classList.add("display-block");
+        loginFocus.focus();
     });
     popUpClose.addEventListener("click", function (evt) {
         evt.preventDefault();
