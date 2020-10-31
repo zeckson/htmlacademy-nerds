@@ -1121,7 +1121,7 @@ header {
 
 .information {
   min-height: 416px;
-  margin-top: 80px;
+  margin-top: 76px;
   box-sizing: border-box;
   background-image: url("../img/map.jpg");
   background-repeat: no-repeat;
@@ -1139,8 +1139,8 @@ header {
   height: 190px;
   background-repeat: no-repeat;
   position: absolute;
-  top: 50px;
-  left: 648px;
+  top: 89px;
+  left: 680px;
 }
 
 
@@ -1148,7 +1148,7 @@ header {
   position: absolute;
   width: 319px;
   height: 308px;
-  top: 66px;
+  top: 55px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1157,18 +1157,19 @@ header {
 
 .information__text h5 {
   padding-top: 49px;
-  padding-bottom: 23px;
+  padding-bottom: 19px;
   font-size: 18px;
   line-height: 30px;
   text-transform: uppercase;
 }
 
 .information__text p {
-  padding-bottom: 38px;
+  padding-bottom: 17px;
 }
 
 .information__button--red {
   margin-left: 0;
+  margin-bottom: 0;
   padding-left: 40px;
   padding-right: 40px;
 }
