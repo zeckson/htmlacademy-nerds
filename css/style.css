@@ -442,7 +442,7 @@ header {
   display: inline-block;
   background: #EEEEEE;
   position: absolute;
-  top: 565px;
+  top: 527px;
 }
 
 .about__left-column h2 {
@@ -512,6 +512,7 @@ header {
   padding-left: 145px;
 }
 
+
 .table__accent {
   padding-bottom: 11px;
   font-weight: bold;
@@ -532,10 +533,9 @@ header {
 }
 
 .portfolio-list {
-  padding-top: 66px;
+  padding-top: 53px;
   padding-bottom: 44px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
   position: relative;
 }
@@ -546,11 +546,21 @@ header {
   height: 2px;
   background: #EEEEEE;
   position: absolute;
-  top: 205px;
+  top: 181px;
 }
 
 .portfolio-list__item {
   position: relative;
+}
+.portfolio-list__item:first-child{
+  margin-left: 30px;
+  margin-right: 96px;
+}
+.portfolio-list__item:nth-child(2){
+  margin-right: 104px;
+}
+.portfolio-list__item:nth-child(3){
+  margin-right: 121px;
 }
 
 .portfolio-list__item:nth-child(2)::after,
