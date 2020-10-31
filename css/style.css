@@ -116,7 +116,7 @@ header {
 }
 
 .nav-list {
-  width: 437px;
+  min-width: 437px;
   height: 30px;
   margin-left: 362px;
   display: flex;
@@ -296,7 +296,7 @@ header {
 }
 
 .page-pointer h1 {
-  padding-top: 72px;
+  padding-top: 87px;
   padding-bottom: 108px;
   text-align: center;
 }
@@ -632,7 +632,7 @@ header {
 
 
 .catalog-wrapper {
-  padding-top: 55px;
+  padding-top: 60px;
   display: flex;
   justify-content: space-between;
 }
@@ -707,8 +707,8 @@ header {
 }
 
 .price-controls input {
-  width: 80px;
-  height: 38px;
+  width: 76px;
+  height: 31px;
   padding: 0;
   margin-left: 11px;
   font-size: 16px;
@@ -787,7 +787,7 @@ header {
 .property {
   display: flex;
   flex-direction: column;
-  padding-top: 46px;
+  padding-top: 25px;
 }
 
 .property h4 {
@@ -842,7 +842,7 @@ header {
   width: 260px;
   height: 50px;
   padding: 0;
-  margin-top: 50px;
+  margin-top: 31px;
   color: black;
   outline: none;
   border: none;
@@ -887,7 +887,7 @@ header {
 .sort__label {
   color: black;
   opacity: 50%;
-  text-transform: lowercase;
+  text-transform: uppercase;
   font-size: 14px;
   line-height: 18px;
 }
@@ -1058,7 +1058,7 @@ header {
 }
 
 .page-control {
-  padding-top: 54px;
+  padding-top: 20px;
   display: flex;
 }
 
