@@ -1136,6 +1136,7 @@ header {
 .information {
   min-height: 416px;
   margin-top: 76px;
+  margin-bottom: 4px;
   box-sizing: border-box;
   background-image: url("../img/map.jpg");
   background-repeat: no-repeat;
