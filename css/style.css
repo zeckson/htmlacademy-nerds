@@ -1289,15 +1289,15 @@ header {
   border: none;
 }
 
-input:required {
+.popup__form input:required {
   border: 2px solid #D7DCDE;
 }
 
-input:valid {
+.popup__form input:valid {
   border: 2px solid #D7DCDE;
 }
 
-input:invalid {
+.popup__form input:invalid {
   border: 2px solid #E74246;
 }
 
