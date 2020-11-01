@@ -122,6 +122,12 @@ header {
   display: flex;
   justify-content: space-between;
 }
+.nav-list__item{
+  position: relative;
+}
+.nav__item--active{
+  border-bottom: #FB565A 2px solid;
+}
 
 .nav-list__item a:visited {
   color: black;
@@ -1165,21 +1171,26 @@ header {
 
 .information__text h5 {
   padding-top: 49px;
-  padding-bottom: 19px;
+  padding-bottom: 23px;
+  margin-left: -26px;
   font-size: 18px;
   line-height: 30px;
   text-transform: uppercase;
 }
 
 .information__text p {
-  padding-bottom: 17px;
+  width: 230px;
+  margin-left: 15px;
+  padding-bottom: 38px;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .information__button--red {
   margin-left: 0;
   margin-bottom: 0;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 44px;
+  padding-right: 44px;
 }
 
 
