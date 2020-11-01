@@ -176,12 +176,10 @@ header {
 
 .header-gallery__wrapper {
   position: relative;
-}
-
-.header-gallery {
   width: 1160px;
   margin: 0 auto;
 }
+
 
 .slide-first,
 .slide-second,
@@ -272,10 +270,9 @@ header {
   display: none;
 }
 
-
 .header-gallery__btn-list {
   position: absolute;
-  left: 660px;
+  left: 480px;
   top: 327px;
   width: 200px;
   height: 10px;
