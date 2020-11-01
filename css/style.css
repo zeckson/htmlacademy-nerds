@@ -509,12 +509,13 @@ header {
   padding-top: 286px;
   padding-left: 150px;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 24p1x;
   text-transform: uppercase;
 }
 
 .about__right-column table {
   padding-left: 125px;
+  border-spacing: 8px ;
 }
 
 
