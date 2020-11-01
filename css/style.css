@@ -275,7 +275,7 @@ header {
 
 .header-gallery__btn-list {
   position: absolute;
-  left: 591px;
+  left: 660px;
   top: 327px;
   width: 200px;
   height: 10px;
@@ -328,7 +328,7 @@ header {
   display: inline-block;
   width: 300px;
   height: 146px;
-  padding-right: 98px;
+  padding-right: 100px;
   background-image: url("../img/illustration-1.png");
   background-repeat: no-repeat;
 }
@@ -467,7 +467,7 @@ header {
 }
 
 .about h5 {
-  padding-bottom: 25px;
+  padding-bottom: 24px;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
@@ -477,7 +477,7 @@ header {
 
 .service-list {
   min-height: 120px;
-  padding-left: 32px;
+  padding-left: 36px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -520,7 +520,7 @@ header {
 
 
 .table__accent {
-  padding-bottom: 11px;
+  padding-bottom: 8px;
   font-weight: bold;
   font-size: 45px;
   line-height: 64px;
