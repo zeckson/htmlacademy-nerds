@@ -1402,3 +1402,6 @@ input:invalid {
   display: block;
 }
 
+.border--none{
+  border: none;
+}
